@@ -43,24 +43,13 @@ header::after {
   top: 100%;
   right: 0%;
   background: #464655;
-
   display: none;
-  opacity: 0;
-
-  transition-property: display,opacity;
-  transition-duration: 0.5s;
-  transition-delay: 0s,1s;
-
-  -webkit-transition-property: display,opacity;
-  -webkit-transition-duration: 0.5s;
-  -webkit-transition-delay: 0s,1s;
-  
-  
+  transition: display 0.3s ease-in;
+  -webkit-transition: display 0.3s ease-in;
 }
 
 .site-nav--open {
   display: block;
-  opacity: 1;
 }
 
 .site-nav ul {
