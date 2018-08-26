@@ -43,14 +43,24 @@ header::after {
   top: 100%;
   right: 0%;
   background: #464655;
-  clip-path: circle(0px at top right);
-  transition: clip-path ease-in-out 700ms;
-/*   display: none; */
+
+  display: none;
+  opacity: 0;
+
+  transition-property: display,opacity;
+  transition-duration: 0.5s;
+  transition-delay: 0s,1s;
+
+  -webkit-transition-property: display,opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-delay: 0s,1s;
+  
+  
 }
 
 .site-nav--open {
-  clip-path: circle(250% at top right);
-/*   display: block; */
+  display: block;
+  opacity: 1;
 }
 
 .site-nav ul {
@@ -141,7 +151,7 @@ header::after {
     position: relative;
     background: transparent;
     float: right;
-    clip-path: initial;
+    display:block;
   }
   
   .site-nav li {
