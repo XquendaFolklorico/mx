@@ -69,7 +69,7 @@ header::after {
 .site-nav a {
   color: #EBEBD3;
   display: block;
-  padding: 1em;
+  padding: 0 0.5em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -147,11 +147,7 @@ header::after {
     display: inline-block;
     border: none;
   }
-  
-  .site-nav a {
-    padding: 0;
-    margin-left: 3em;
-  }
+
   
   .site-nav a:hover,
   .site-nav a:focus {
@@ -167,5 +163,16 @@ header::after {
 @media (max-width:420px){
   .logo span {
     font-size: 0.7rem;
+  }
+  .site-nav a {
+    padding: 0.5em;
+  }
+}
+
+@media (min-width: 800px) {
+    
+  .site-nav a {
+    padding: 0;
+    margin-left: 3em;
   }
 }
