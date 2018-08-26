@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 body {
-  background: #F0F8EA;
+  background: whitesmoke;
   font-family: 'Quicksand', sans-serif;
 }
 section{
@@ -45,7 +45,7 @@ header::after {
   position: absolute;
   top: 100%;
   right: 0%;
-  background-color: rgba(70, 70, 85,0.6);
+  background-color: rgba(70, 70, 85,0.75);
   border-radius: 0 0 1em 1em;
   display: none;
   transition: display 0.3s ease-in;
@@ -177,6 +177,10 @@ header::after {
     
   .site-nav a {
     padding: 0;
-    margin-left: 3em;
+    margin-left: 2em;
   }
+}
+
+img{
+  width: 100%;
 }
