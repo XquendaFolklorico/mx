@@ -70,7 +70,7 @@ header::after {
 .site-nav a {
   color: #EBEBD3;
   display: block;
-  padding: 2em 4em 2em 1.5em;
+  padding: 1em;
   text-transform: uppercase;
   text-decoration: none;
 }
