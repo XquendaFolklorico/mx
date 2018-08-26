@@ -1,5 +1,3 @@
-/* colors -> https://coolors.co/e54b4b-ebebd3-464655-e4b363-e8e9eb */
-
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 body {
@@ -133,12 +131,11 @@ header::after {
   transform: translateY(-3px) rotate(-90deg);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 770px) {
   
   .menu-toggle {
     display: none;
   }
-  
   .site-nav {
     height: auto;
     position: relative;
@@ -164,7 +161,7 @@ header::after {
   
 }
 
-@media (max-width:420px){
+@media (max-width:769px){
   .logo span {
     font-size: 0.7rem;
   }
@@ -173,13 +170,7 @@ header::after {
   }
 }
 
-@media (min-width: 800px) {
-    
-  .site-nav a {
-    padding: 0;
-    margin-left: 2em;
-  }
-}
+
 
 img{
   width: 100%;
