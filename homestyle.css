@@ -7,6 +7,9 @@ body {
   background: whitesmoke;
   font-family: 'Quicksand', sans-serif;
 }
+h1{
+  -webkit-margin-before: 2em;
+}
 section{
   padding: 1em 0.5em;
   word-wrap: break-word;
@@ -186,18 +189,19 @@ img{
 
 @media (max-width:769px){
   .logo span {
-    font-size: 0.7rem;
-  }
-  .site-nav a {
-    padding: 0.5em;
-  }
-  header{
-    height: 1rem;
-    padding: 0.5rem 0;
+    font-size: 0.7em;
   }
   .logo{
     padding: 0;
   }
+  .site-nav a {
+    padding: 0 0.5em;
+  }
+  header{
+    height: 1.5rem;
+    padding: 0.5rem 0;
+  }
+ 
   .menu-toggle{
     padding: 0.5rem;
   }
