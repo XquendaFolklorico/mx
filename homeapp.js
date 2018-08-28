@@ -9,6 +9,7 @@ function menu(e){
 }
 
 menuToggle.addEventListener("click",menu)
+document.querySelector('.fa-home').parentElement.addEventListener("click",menu)
 document.querySelector('.fa-info').parentElement.addEventListener("click",menu)
 document.querySelector('.fa-images').parentElement.addEventListener("click",menu)
 document.querySelector('.fa-calendar-alt').parentElement.addEventListener("click",menu)

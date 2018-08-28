@@ -214,4 +214,9 @@ img{
   .menu-toggle{
     padding: 0.5rem;
   }
+
+  .site-nav--open {
+    width: 100%;
+  }
+
 }
