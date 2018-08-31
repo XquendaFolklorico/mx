@@ -54,17 +54,29 @@ header::after {
 .site-nav {
   position: absolute;
   top: 100%;
-  right: 0%;
+  
   
   background-color: rgba(70, 70, 85,0.75);
   border-radius: 0 0 1em 1em;
-  display: none;
-  transition: display 0.3s ease-in;
-  -webkit-transition: display 0.3s ease-in;
+  transition: left 0.5s ease-in-out ;
+  -webkit-transition: left 0.5s ease-in-out;
+  
 }
 
 .site-nav--open {
-  display: block;
+  
+  left: 0%
+  /*
+  animation-name: example;
+  animation-duration: 4s;
+  */
+}
+
+@keyframes example {
+  0%   {top: -800%;}
+  25%  {top: -500%;}
+  50%  {top: -200%;}
+  100% {top: 100%;}
 }
 
 .site-nav ul {
@@ -245,8 +257,14 @@ li{
     padding: 0.5rem;
   }
 
+  .site-nav {
+    width: 100%;
+    left: 100%;
+  }
+
   .site-nav--open {
     width: 100%;
+    left: 0%
   }
 
 }
