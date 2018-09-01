@@ -10,6 +10,14 @@ body {
   background: whitesmoke;
   font-family: 'Quicksand', sans-serif;
 }
+cite, h3{
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+
+}
 h1{
   -webkit-margin-before: 2em;
 }
