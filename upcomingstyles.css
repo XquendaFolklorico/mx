@@ -4,7 +4,9 @@
   margin: 0;
 }
 
-
+.sectionId{
+  -webkit-margin-after: 1em;
+}
 .link {
   display: block;
   text-align: center;
@@ -18,7 +20,7 @@
   display: block;
   width: 800px;
   height: 350px;
-  margin: 80px auto;
+  margin: 0px auto 40px;
   overflow: hidden;
   border-radius: 10px;
   transition: all 0.4s;
