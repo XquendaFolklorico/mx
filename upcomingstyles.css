@@ -23,15 +23,17 @@
   margin: 0px auto 40px;
   overflow: hidden;
   border-radius: 10px;
-  transition: all 0.4s;
   box-shadow: 0px 0px 120px -25px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s;
 }
+
 .movie_card:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
-  box-shadow: 0px 0px 80px -25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.5);
   transition: all 0.4s;
 }
+
 .movie_card .info_section {
   position: relative;
   width: 100%;
@@ -161,7 +163,7 @@
   }
 }
 .bright_back {
-  background: url("./images/sinaloa.jpg");
+  background: url("./images/fiestas_patrias.jpg");
 }
 
 .tomb_back {
