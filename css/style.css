@@ -123,6 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(45deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("../img/xquenda-bg-2000.jpg") center top no-repeat;
   background-size: cover;
   background-position: left;
+  background-position-y: 50%;
   position: relative;
 }
 
@@ -272,8 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 #countdownBox h2{
-  letter-spacing: 0.7rem;
-
+  letter-spacing: 0.5rem;
 }
 .count{
   color:white;
