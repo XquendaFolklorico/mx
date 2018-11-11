@@ -1,9 +1,3 @@
-/*
-  Theme Name: Avilon
-  Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -177,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   #intro {
     animation-name: caminar;
     animation-timing-function: ease-in-out;
-    animation-duration: 15s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
