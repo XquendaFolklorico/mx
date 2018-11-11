@@ -265,6 +265,41 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+#countdownBox{
+  color:white;
+  min-width: 80%;
+
+}
+#countdownBox h2{
+  letter-spacing: 0.7rem;
+
+}
+.count{
+  color:white;
+  min-width: 27%;
+  display: inline-block;
+  background-color:  rgba(0, 0, 0, 0.6);
+  border-radius: 1rem;
+}
+.count span{
+  font-size: 4.5rem;
+}
+.count h6{
+  font-size: 1.3rem;
+  padding: 1rem 0 0 0;
+  margin: 0;
+}
+
+@media (min-width: 767px){
+  .count{
+    max-width: 20%;
+    min-width: 20%;
+  }
+}
+
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/

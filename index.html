@@ -62,14 +62,30 @@
   <!--==========================
     Intro Section
   ============================-->
+
   <section id="intro">
 
     <div class="intro-text">
+        <div class="box" id="countdownBox">
+          <div id="contador" data-fecha="2018-12-15">
+            <h2 class="faltan">FALTAN</h2>
+            <div class="count">
+              <h6>DÍAS</h6><span id="days"></span>
+            </div>
+            <div class="count">
+              <h6>HORAS</h6><span id="hours"></span>
+            </div>
+            <div class="count">
+              <h6 id="minutosTitle">MINUTOS</h6><span id="minutes"></span>
+            </div>
+          </div>
+          <h2>PARA EL ANIVERSARIO</h2>
+        </div>
       <!----
       <h2>XQUENDA</h2>
       <p>GRUPO FOLKLÓRICO MEXICANO</p>
       -->
-      <a href="#about" class="btn-get-started scrollto">Comenzar</a>
+      <a href="#about" class="btn-get-started scrollto">Ver más</a>
     </div>
     <!----
     <div class="product-screens">
@@ -230,7 +246,7 @@
 
         <div class="row no-gutters">
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-4">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-1.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-1.jpg" alt="">
@@ -238,7 +254,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-4">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-2.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-2.jpg" alt="">
@@ -246,15 +262,15 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-4">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-3.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-3.jpg" alt="">
               </a>
             </div>
           </div>
-          <!--
-          <div class="col-lg-4 col-md-6">
+          
+          <div class="col-lg-4 col-md-4 col-sm-4 col-4">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-4.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-4.jpg" alt="">
@@ -262,7 +278,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-4">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-5.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-5.jpg" alt="">
@@ -270,14 +286,14 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-4">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-6.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-6.jpg" alt="">
               </a>
             </div>
           </div>
-          -->
+          
         </div>
 
       </div>
@@ -369,9 +385,13 @@
   <!-- Contact Form JavaScript File --
   <script src="contactform/contactform.js"></script>
   -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/buenFin.js"></script>
+
 
 </body>
 </html>
