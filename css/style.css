@@ -167,6 +167,28 @@ h1, h2, h3, h4, h5, h6 {
   to {background-position: left;}
 }
 
+@keyframes llenar {
+  from {background-size:105%;}
+  to {background-size: 100%;}
+}
+
+@-webkit-keyframes llenar {
+  from {background-size:105%;}
+  to {background-size: 100%;}
+}
+
+
+@media (min-width: 769px) {
+  #intro {
+    background-size: 105%;
+    animation-name: caminar;
+    animation-timing-function: ease-in-out;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+}
+
 
 @media (max-width: 768px) {
   #intro {
@@ -1095,10 +1117,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   /*background: #fff;*/
   padding: 60px 0 0 0;
   overflow: hidden;
+  
 }
+
 
 #gallery .container-fluid {
   padding: 0px;
+  width: 90%;
 }
 
 #gallery .gallery-overlay {
@@ -1118,6 +1143,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   position: relative;
   padding: 0;
+  margin:0.2rem;
   vertical-align: middle;
   text-align: center;
 }
