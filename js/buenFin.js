@@ -13,6 +13,6 @@ $(document).ready(function () {
       if(tz<10){
           tz='0'+tz;
       }
-      var fecha = $( '#contador' ).data( 'fecha' )+'T00:00:00-'+tz+':00';
+      var fecha = $( '#contador' ).data( 'fecha' )+'T16:30:00-'+tz+':00';
       regresiva2(fecha);
 });
