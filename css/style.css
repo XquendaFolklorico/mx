@@ -1212,8 +1212,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .social-links a:hover {
-  background: #802424;
+  background: #ff0000;
   color: #fff;
+  border: 1px solid #ff0000;
+}
+
+#contact .social-links .facebook {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #2b2010;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #2b2010;
+}
+
+#contact .social-links .facebook:hover {
+  background: #4267b2;
+  color: #fff;
+  border: 1px solid #4267b2;
 }
 
 #contact .info {
