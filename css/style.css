@@ -94,13 +94,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
 
-  max-height: 90px;
+  max-height: 70px;
 
   position: fixed;
   left: 0;
   top: 0;
   
-  margin: 17px 0 0 20px;
+  margin: 0px 0 0 20px;
 }
 
 @media (max-width: 768px) {
@@ -110,6 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #header #logo img {
     max-height: 40px;
+    margin: 17px 0 0 20px;
   }
 }
 
