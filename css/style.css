@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
   #intro {
     /*background-size: 125%;*/
     animation-name: caminar;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #intro {
     animation-name: caminar;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
     animation-duration: 25s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
