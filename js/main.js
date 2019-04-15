@@ -136,11 +136,11 @@ $(window).load(function() {
 
   $(".loader").animate({
     opacity: 0,
-  }, 500, function() {
+  }, 300, function() {
     // Animation complete.
     $("#loader").animate({
       opacity: 0,
-    }, 1500, function() {
+    }, 700, function() {
       // Animation complete.
       $("#loader").remove();
     });
