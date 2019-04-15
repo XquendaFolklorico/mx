@@ -133,12 +133,21 @@ jQuery(document).ready(function($) {
 
 $(window).load(function() {
   // executes when complete page is fully loaded, including all frames, objects and images
-  $("#loader").animate({
+
+  $(".loader").animate({
     opacity: 0,
-  }, 1500, function() {
+  }, 500, function() {
     // Animation complete.
-    $("#loader").remove();
+    $("#loader").animate({
+      opacity: 0,
+    }, 1500, function() {
+      // Animation complete.
+      $("#loader").remove();
+    });
   });
+
+
+  
 
 });
 
