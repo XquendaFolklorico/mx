@@ -129,3 +129,16 @@ jQuery(document).ready(function($) {
   // custom code
 
 });
+
+
+$(window).load(function() {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  $("#loader").animate({
+    opacity: 0,
+  }, 1500, function() {
+    // Animation complete.
+    $("#loader").remove();
+  });
+
+});
+

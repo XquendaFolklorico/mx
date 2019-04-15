@@ -57,6 +57,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# Loader
+--------------------------------------------------------------*/
+#loader {
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: absolute;
+}
+
+.loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: auto;
+  margin-top: 42vh;
+  opacity: 0.6;
+}
+
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
@@ -191,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   #intro {
     /*background-size: 125%;*/
     animation-name: caminar;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -202,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #intro {
     animation-name: caminar;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
     animation-duration: 25s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
