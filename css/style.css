@@ -1272,7 +1272,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .social-links .instagram:hover {
   background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   color: #fff;
-  border: 1px solid #2b2010;
+  /* border: 1px solid #2b2010;*/
+  border: none;
 }
 
 #contact .info {
