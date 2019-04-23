@@ -134,18 +134,25 @@ jQuery(document).ready(function($) {
 $(window).load(function() {
   // executes when complete page is fully loaded, including all frames, objects and images
 
-  $(".loader").animate({
-    opacity: 0,
-  }, 300, function() {
-    // Animation complete.
-    $("#loader").animate({
-      opacity: 0,
-    }, 700, function() {
-      // Animation complete.
-      $("#loader").remove();
-    });
-  });
 
+  $(".loader1").animate({
+    opacity: 0,
+  }, 200, function() {
+    // Animation complete.
+    
+    $(".loader").animate({
+      opacity: 0,
+    }, 300, function() {
+      // Animation complete.
+      $("#loader").animate({
+        opacity: 0,
+      }, 700, function() {
+        // Animation complete.
+        $("#loader").remove();
+      });
+    });
+
+  });
 
   
 
