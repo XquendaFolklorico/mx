@@ -1336,6 +1336,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
 }
 
+#contact .social-links .twitter:hover {
+  background: #1DA1F2;
+  color: #fff;
+  border: 1px solid #1DA1F2;
+}
+
 #contact .info {
   color: #333333;
 }
